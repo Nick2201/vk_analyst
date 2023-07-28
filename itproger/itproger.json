@@ -1,0 +1,327 @@
+{
+    "response": {
+        "count": 7,
+        "items": [
+            {
+                "donut": {
+                    "is_donut": false
+                },
+                "comments": {
+                    "can_post": 1,
+                    "count": 1,
+                    "groups_can_post": true
+                },
+                "marked_as_ads": 0,
+                "short_text_rate": 0.8,
+                "hash": "ePyCuO9NImmpQfi9s7Wzu-vKny4",
+                "type": "post",
+                "attachments": [
+                    {
+                        "type": "link",
+                        "link": {
+                            "url": "http://itproger.ru/xaker/eksploity-uroki/2-praktika-prostoj-primer-na-s-yazyk-assemblera-processor-x86-objdump-registry-eax-ecx-edx-ebx-esp-ebp-esi-edi-eip-otladchik-gdb.html",
+                            "caption": "itproger.ru",
+                            "description": "пока готовиться данная статья",
+                            "is_favorite": false,
+                            "title": "2. Практика, простой пример на с язык ассемблера, процессор х86 (objdump, регистры EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI, EIP, отладчик GDB) | ITPROGER"
+                        }
+                    }
+                ],
+                "date": 1349033854,
+                "from_id": -41414852,
+                "id": 7,
+                "is_favorite": false,
+                "likes": {
+                    "can_like": 1,
+                    "count": 2,
+                    "user_likes": 0,
+                    "can_publish": 1,
+                    "repost_disabled": false
+                },
+                "owner_id": -41414852,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "reposts": {
+                    "count": 1,
+                    "user_reposted": 0
+                },
+                "text": "Подтравливается раздел Практика, простой пример на с язык ассемблера, процессор х86 (objdump, регистры EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI, EIP, отладчик GDB) \n itproger.ru/xaker/eksploity-uroki/2-praktika-prostoj-primer-na-s-yazyk-assemblera-processor-x86-objdump-registry-eax-ecx-edx-ebx-esp-ebp-esi-edi-eip-otladchik-gdb.html"
+            },
+            {
+                "donut": {
+                    "is_donut": false
+                },
+                "comments": {
+                    "can_post": 1,
+                    "count": 0,
+                    "groups_can_post": true
+                },
+                "marked_as_ads": 0,
+                "short_text_rate": 0.8,
+                "hash": "moIndBu8W_BeODQU_noKviFadyA",
+                "type": "post",
+                "attachments": [
+                    {
+                        "type": "link",
+                        "link": {
+                            "url": "http://itproger.ru/pentest/video-po-backtrack/hacking-kak-vzlomat-wpawpa2-en.html",
+                            "caption": "itproger.ru",
+                            "description": "Чем то напоминает взлом wep но тоже интересно",
+                            "is_favorite": false,
+                            "title": "Hacking-как взломать wpa/wpa2  (en) | ITPROGER"
+                        }
+                    }
+                ],
+                "date": 1349033406,
+                "edited": 1349033745,
+                "from_id": -41414852,
+                "id": 6,
+                "is_favorite": false,
+                "likes": {
+                    "can_like": 1,
+                    "count": 2,
+                    "user_likes": 0,
+                    "can_publish": 1,
+                    "repost_disabled": false
+                },
+                "owner_id": -41414852,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "reposts": {
+                    "count": 1,
+                    "user_reposted": 0
+                },
+                "text": "Появились новые статьи и видео материал по backtrack 5:\n1. Hacking-как взломать wpa/wpa2 (en) \n itproger.ru/pentest/video-po-backtrack/hacking-kak-vzlomat-wpawpa2-en.html\n\n2.dmitry- информация о маршруте\n itproger.ru/pentest/uroki-po-backtrack/43-dmitry-informaciya-o-marshrute.html\n\n3. tcpraceroute\n itproger.ru/pentest/uroki-po-backtrack/44-tcpraceroute.html\nПо другим темам \n itproger.ru/javascript/primery-vzaimodejstviya-s-php/javascript-i-php-primer-vzaimodejstviya-s-pomoshhyu-echo.html\n1. javascript и php пример взаимодействия с помощью echo\n itproger.ru/linux/razlichnye-nastrojki/vosstanovlenie-parolya-superpolzovatelya-root-dlya-debian-6-linux.html\n2. Восстановление пароля суперпользователя root для debian 6, linux"
+            },
+            {
+                "donut": {
+                    "is_donut": false
+                },
+                "comments": {
+                    "can_post": 1,
+                    "count": 0,
+                    "groups_can_post": true
+                },
+                "marked_as_ads": 0,
+                "short_text_rate": 0.8,
+                "hash": "QEWk47NbXRZ6VdU8gAhehs7bOus",
+                "type": "post",
+                "attachments": [
+                    {
+                        "type": "link",
+                        "link": {
+                            "url": "http://itproger.ru/modx/bagi-modx/problema-s-plaginom-phx.html",
+                            "caption": "itproger.ru",
+                            "description": "Возникла странная проблема. При переносе сайта на другой хостинг возникла проблема с плагином PHx. Когда он включен, возникает ошибка",
+                            "is_favorite": false,
+                            "title": "Проблема с плагином PHx | ITPROGER"
+                        }
+                    }
+                ],
+                "date": 1343720344,
+                "from_id": -41414852,
+                "id": 5,
+                "is_favorite": false,
+                "likes": {
+                    "can_like": 1,
+                    "count": 1,
+                    "user_likes": 0,
+                    "can_publish": 1,
+                    "repost_disabled": false
+                },
+                "owner_id": -41414852,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "reposts": {
+                    "count": 1,
+                    "user_reposted": 0
+                },
+                "text": "Проблема с плагином PHx \nПри переносе сайта на другой хостинг возникла проблема с плагином PHx. Когда он включен, возникает ошибка\nрешение на itproger.ru/modx/bagi-modx/problema-s-plaginom-phx.html"
+            },
+            {
+                "donut": {
+                    "is_donut": false
+                },
+                "comments": {
+                    "can_post": 1,
+                    "count": 0,
+                    "groups_can_post": true
+                },
+                "marked_as_ads": 0,
+                "short_text_rate": 0.8,
+                "hash": "QSEZFHqAIh5EvQ9vJcK-y47pUvE",
+                "type": "post",
+                "attachments": [
+                    {
+                        "type": "link",
+                        "link": {
+                            "url": "http://itproger.ru/category/modx/bagi-modx",
+                            "caption": "itproger.ru",
+                            "description": "Различные баги в сниппетах modx и их решение.",
+                            "is_favorite": false,
+                            "title": "Баги Modx | ITPROGER"
+                        }
+                    }
+                ],
+                "date": 1343719951,
+                "from_id": -41414852,
+                "id": 4,
+                "is_favorite": false,
+                "likes": {
+                    "can_like": 1,
+                    "count": 1,
+                    "user_likes": 0,
+                    "can_publish": 1,
+                    "repost_disabled": false
+                },
+                "owner_id": -41414852,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "reposts": {
+                    "count": 1,
+                    "user_reposted": 0
+                },
+                "text": "Новый раздел баги modx, посвященный решением разных дефектов плагинов и снипитов на itproger.ru/category/modx/bagi-modx"
+            },
+            {
+                "donut": {
+                    "is_donut": false
+                },
+                "comments": {
+                    "can_post": 1,
+                    "count": 0,
+                    "groups_can_post": true
+                },
+                "marked_as_ads": 0,
+                "short_text_rate": 0.8,
+                "hash": "Q3Q1zdkVctUeA37REncbWufxOME",
+                "type": "post",
+                "attachments": [
+                    {
+                        "type": "link",
+                        "link": {
+                            "url": "http://itproger.ru/modx/bagi-modx/kvadratiki-v-rezultatax-simplesearch-modx.html",
+                            "caption": "itproger.ru",
+                            "description": "Открываем файл simplesearch.class.php который лежит в папке core/components/simplesearch/model/simplesearch/",
+                            "is_favorite": false,
+                            "title": "Квадратики в результатах SimpleSearch modx | ITPROGER"
+                        }
+                    }
+                ],
+                "date": 1343719843,
+                "from_id": -41414852,
+                "id": 3,
+                "is_favorite": false,
+                "likes": {
+                    "can_like": 1,
+                    "count": 1,
+                    "user_likes": 0,
+                    "can_publish": 1,
+                    "repost_disabled": false
+                },
+                "owner_id": -41414852,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "reposts": {
+                    "count": 1,
+                    "user_reposted": 0
+                },
+                "text": "Квадратики в результатах SimpleSearch modx\nрешение на itproger \n \nhttp://itproger.ru/modx/bagi-modx/kvadratiki-v-rezultatax-simplesearch-modx.html"
+            },
+            {
+                "donut": {
+                    "is_donut": false
+                },
+                "comments": {
+                    "can_post": 1,
+                    "count": 0,
+                    "groups_can_post": true
+                },
+                "marked_as_ads": 0,
+                "short_text_rate": 0.8,
+                "hash": "HXKPgp8AeIq3wh_GaZ1oPqX4jo8",
+                "type": "post",
+                "attachments": [
+                    {
+                        "type": "link",
+                        "link": {
+                            "url": "http://itproger.ru/news/putin-podpisal-zakon-o-chernyx-spiskax-sajtov.html",
+                            "caption": "itproger.ru",
+                            "description": "Закон о создании реестра Интернет-ресурсов с запрещенной к распространению информацией вступает в силу 30 июля 2012 года.",
+                            "is_favorite": false,
+                            "title": "Путин подписал закон о «черных списках» сайтов | ITPROGER"
+                        }
+                    }
+                ],
+                "date": 1343715945,
+                "from_id": -41414852,
+                "id": 2,
+                "is_favorite": false,
+                "likes": {
+                    "can_like": 1,
+                    "count": 1,
+                    "user_likes": 0,
+                    "can_publish": 1,
+                    "repost_disabled": false
+                },
+                "owner_id": -41414852,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "reposts": {
+                    "count": 1,
+                    "user_reposted": 0
+                },
+                "text": "Путин подписал закон о «черных списках» сайтов. \nЗакон о создании реестра Интернет-ресурсов с запрещенной к распространению информацией вступает в силу 30 июля 2012 года. \n itproger.ru/news/putin-podpisal-zakon-o-chernyx-spiskax-sajtov.html"
+            },
+            {
+                "donut": {
+                    "is_donut": false
+                },
+                "comments": {
+                    "can_post": 1,
+                    "count": 0,
+                    "groups_can_post": true
+                },
+                "marked_as_ads": 0,
+                "zoom_text": true,
+                "short_text_rate": 0.8,
+                "hash": "3wFW3lqkEWvWxAZbQx00SUzKQEQ",
+                "type": "post",
+                "attachments": [],
+                "date": 1343680388,
+                "from_id": -41414852,
+                "id": 1,
+                "is_favorite": false,
+                "likes": {
+                    "can_like": 1,
+                    "count": 0,
+                    "user_likes": 0,
+                    "can_publish": 1,
+                    "repost_disabled": false
+                },
+                "owner_id": -41414852,
+                "post_source": {
+                    "type": "vk"
+                },
+                "post_type": "post",
+                "reposts": {
+                    "count": 0,
+                    "user_reposted": 0
+                },
+                "text": "Мы в контакте."
+            }
+        ]
+    }
+}
