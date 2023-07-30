@@ -10,6 +10,8 @@ packages = [{include = "vk_analyst"}]
 python = "^3.10"
 requests = "^2.31.0"
 pandas = "^2.0.3"
+sqlalchemy = "^2.0.19"
+psycopg2 = "^2.9.6"
 
 
 [build-system]
