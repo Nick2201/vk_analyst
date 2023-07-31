@@ -13,7 +13,6 @@
 
 ГРАФИК среднего количества ЛАЙКи|Просмотры / ЧАСы
 
-
 ![image\README\1690809262700.png](https://github.com/Nick2201/vk_analyst/blob/main/image/README/1690809262700.png)
 
 
