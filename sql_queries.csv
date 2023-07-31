@@ -1,0 +1,62 @@
+#1: время суток публикации:
+WITH interval_data AS (
+  SELECT
+	EXTRACT(HOUR FROM date) AS t_pub_hour,
+    likes,views
+
+  FROM
+    wall_social_media
+  WHERE
+    likes IS NOT NULL
+	 AND
+	views IS NOT NULL
+    AND DATE_PART('year', date) IN (2023,2022,2021)
+)
+
+SELECT
+	t_pub_hour,
+	ROUND(AVG(likes)) AS avg_likes
+
+FROM interval_data
+GROUP BY t_pub_hour
+ORDER BY t_pub_hour
+
+
+
+
+#2: день недели
+SELECT
+	avg(likes),
+	EXTRACT(ISODOW FROM wall_social_media.date) as day_of_week
+
+FROM wall_social_media
+
+WHERE DATE_PART('year', date) IN (2023,2022,2021)
+GROUP BY EXTRACT(ISODOW FROM wall_social_media.date)
+ORDER BY day_of_week;
+
+#3 промежуток между постами:
+
+WITH interval_data AS (
+  SELECT
+    likes,views,
+    EXTRACT(HOUR FROM (LEAD(date) OVER (ORDER BY date) - date)) AS interval_between_posts_hours
+  FROM
+    wall_social_media
+  WHERE
+    likes IS NOT NULL
+	 AND
+	views IS NOT NULL
+    AND DATE_PART('year', date) IN (2023,2022,2021)
+)
+
+SELECT
+  interval_between_posts_hours,
+  ROUND(AVG(likes)) AS avg_likes,
+  ROUND(AVG(views)) AS avg_views
+FROM
+  interval_data
+GROUP BY
+  interval_between_posts_hours
+ORDER BY
+  interval_between_posts_hours

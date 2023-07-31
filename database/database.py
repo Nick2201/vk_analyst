@@ -4,20 +4,35 @@ from sqlalchemy import ( create_engine,
     String, DateTime,Integer)
 from sqlalchemy.orm import sessionmaker
 
+import os
+from dotenv import load_dotenv
 
-DB_CONFIG = {
-    "host": "localhost",
-    "database": "vk_social_media",
-    "user": "postgres",
-    "port": "5432",
-    "password": "22051969"
-}
-dialect = 'postgresql'
-unpack_conf = dialect + '://{user}:{password}@{host}:{port}/{database}'.format(**DB_CONFIG)
+# Загрузка переменных окружения из файла .env
+load_dotenv()
 
-engine = create_engine(unpack_conf)
+# Получение значений переменных окружения
+host = os.getenv("HOST")
+database = os.getenv("DATABASE")
+user = os.getenv("USER")
+port = os.getenv("PORT")
+password = os.getenv("PASSWORD")
+# DB_CONFIG = {
+#     "host": "localhost",
+#     "database": "vk_social_media",
+#     "user": "postgres",
+#     "port": "5432",
+#     "password": "22051969"
+# }
+host = os.getenv("HOST")
+database = os.getenv("DATABASE")
+user = os.getenv("USER")
+port = os.getenv("PORT")
+password = os.getenv("PASSWORD")
 
-print(unpack_conf)
+# Создание строки подключения и создание объекта engine
+connection_string = f"postgresql://{user}:{password}@{host}:{port}/{database}"
+engine = create_engine(connection_string)
+
 
 
 metadata = MetaData()
@@ -37,5 +52,3 @@ Table_wall_social_media = Table (
     Column('date_added', DateTime()),
 )
 
-conn = engine.connect()
-metadata.create_all(engine)

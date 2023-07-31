@@ -6,7 +6,12 @@ import requests
 import time
 from database.database import Table_wall_social_media,engine,metadata
 from parse_json import parse_json
-app = 'test_2'
+'''
+    BUG:
+    main:
+        1.Ключ "(hash)=(EVA0rFWS74WiUzuRpF-MOWn7tSs)" уже существует
+
+'''
 table_object = Table_wall_social_media
 conn = engine.connect()
 
@@ -28,10 +33,10 @@ def load_db(data):
         conn.execute(insert_statement)
     metadata.create_all(engine)
     conn.commit()
-    print('load_1')
-def get_posts(
+
+def extract(        #TASK: divide load & extract paths
     domain:str = "science_technology",
-    offset:int = 0
+    offset:int = 0  #TASK: call science_technology last post number
     ):
     token = "vk1.a.bmU7MwcqW_MXWgQZQCmf6XA-wQlGK-6jQsTnd3h3E7i9Vkmni8v8AUBYUTus29KjwhNiUs6rtdoa97CE8YLmGLqk1L5zgtWQD6SWaeRa3bzc6nuo6vTZivrpvj5k6IoMgA-vu2SwIiFvMsUJLVCxphZ9TbyZIF6JJF4bHOOD-W5LIRRjv6u-ouD8ZeML9vSUExO-_r2ek0k9TgWCH-kuoQ"
     version = "5.131"
@@ -56,31 +61,17 @@ def get_posts(
 
         get_normal_json = parse_json(src,group_name=domain)
         load_db(get_normal_json)
-        # print(get_normal_json)
+
         offset += 100
-        # print(offset)
+
 
         time.sleep(0.5)
     return all_posts
 
 
-
-
-# Loop through the data and insert each row into the table
-
-
-
-def file_writer(all_posts,group_name):
-    if os.path.exists(f"{group_name}"):
-        print(f"Директория с именем {group_name} уже существует!")
-    else:
-        os.mkdir(group_name)
-    with open(f"{group_name}/{group_name}.csv", "w", encoding="utf-8") as _file:
-        csv.writer(_file)
-
 def main():
     group_name = input("Введите название группы: ")
-    get_posts(domain=group_name,offset=10_100)
+    extract(domain=group_name,offset=10_100)
 
 
 if __name__ == '__main__':
