@@ -1,0 +1,19 @@
+blocks: []
+callbacks: []
+concurrency_config: {}
+conditionals: []
+data_integration: null
+description: null
+executor_config: {}
+executor_count: 1
+executor_type: local_python
+extensions: {}
+name: dark shadow
+notification_config: {}
+retry_config: {}
+spark_config: {}
+tags: []
+type: python
+updated_at: null
+uuid: dark_shadow
+widgets: []
